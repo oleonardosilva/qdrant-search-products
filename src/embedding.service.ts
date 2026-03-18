@@ -5,7 +5,7 @@ const MODEL_NAME =
 
 /**
  * Singleton do pipeline de embeddings.
- * O modelo é baixado/cacheado na primeira chamada (~80MB).
+ * O modelo é baixado/cacheado na primeira chamada.
  */
 let _pipeline: FeatureExtractionPipeline | null = null;
 
